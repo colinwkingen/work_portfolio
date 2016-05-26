@@ -1,0 +1,47 @@
+body {
+  background-image: url("../img/grunge.jpg");
+}
+.float_pane {
+  background-color: rgba(200, 200, 200, 0.5);
+  width: 75%;
+  border-radius: 2%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+.pane_head {
+  font-size: 2em;
+  font-family: monospace;
+  margin: 15px;
+  padding: 10px;
+}
+
+p {
+  opacity: 1.0;
+  color: black;
+  padding: 10px;
+  margin: 2%;
+  font-size: 1.5em;
+  font-family: monospace;
+
+}
+
+.header {
+  margin: 25px;
+  padding: 10px;
+  padding-left: 50px;
+  font-size: 3em;
+  font-family: monospace;
+}
+
+.content_panes {
+  float: right;
+  margin-bottom: 1%;
+  margin-top: 2%;
+}
+.sidebar {
+
+  float: left;
+  width: 17.5%;
+  margin-top: 2%;
+  margin-right: -7.5%;
+}
